@@ -1,16 +1,115 @@
-# React + Vite
+# 🛒 Grocery Shop – ReactJS Group Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
+This project is a **responsive Grocery Shopping Web Application** built using **ReactJS and Bootstrap**.  
+The application allows users to browse products, search and filter items, manage a shopping cart, authenticate users, and securely place orders.
 
-Currently, two official plugins are available:
+The project follows **clean code principles**, **modular component structure**, and **real-world React practices** such as routing, state management, and protected routes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
+- **Frontend:** ReactJS (Vite)
+- **Styling:** Bootstrap 5 + Custom CSS
+- **Routing:** React Router DOM
+- **State Management:** Context API
+- **Storage:** LocalStorage
+- **Deployment:** Netlify
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Key Features
+- Product listing with real images
+- Search and category-based filtering
+- Product details page
+- Add to cart / remove from cart
+- Quantity update and price calculation
+- Login & Signup with validation
+- Protected checkout route
+- Persistent cart using LocalStorage
+- Fully responsive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 👥 Group Work Distribution (5 Students)
+
+### 👩‍🎓 Student 1 – UI & Layout
+**Responsibilities:**
+- Navbar design
+- Footer design
+- Home page UI
+- Bootstrap grid system
+- Responsive design (mobile, tablet, desktop)
+- Overall UI/UX consistency
+
+**Technologies Used:**
+- Bootstrap 5
+- Custom CSS
+- React Components
+
+---
+
+### 👩‍🎓 Student 2 – Product Management
+**Responsibilities:**
+- Product listing page
+- Product details page
+- Dummy product data creation
+- Category handling
+- Image handling & fallback logic
+
+**Technologies Used:**
+- JavaScript (ES6)
+- React Props
+- Array mapping & filtering
+
+---
+
+### 👩‍🎓 Student 3 – Cart & State Management
+**Responsibilities:**
+- Add to cart functionality
+- Remove product from cart
+- Update quantity
+- Total price calculation
+- Cart persistence using LocalStorage
+- Global cart state using Context API
+
+**Technologies Used:**
+- React Context API
+- useState & useEffect
+- LocalStorage
+
+---
+
+### 👩‍🎓 Student 4 – Authentication & Routing
+**Responsibilities:**
+- Login page
+- Signup page
+- Form validation
+- Authentication logic
+- Protected routes
+- React Router configuration
+
+**Technologies Used:**
+- React Router DOM
+- LocalStorage
+- Conditional rendering
+
+---
+
+### 👩‍🎓 Student 5 – Search, Filter & Deployment
+**Responsibilities:**
+- Search functionality
+- Category-based filter
+- Combined search + filter logic
+- Deployment on Netlify
+- Build optimization
+- Final testing & bug fixing
+
+**Technologies Used:**
+- JavaScript array methods
+- Vite build tool
+- Netlify
+
+---
+
+## 📁 Project Folder Structure
