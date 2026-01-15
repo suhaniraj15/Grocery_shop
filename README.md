@@ -113,3 +113,28 @@ The project follows **clean code principles**, **modular component structure**, 
 ---
 
 ## 📁 Project Folder Structure
+src/
+│── components/
+│ ├── Navbar.jsx
+│ ├── Footer.jsx
+│ ├── ProductCard.jsx
+│ ├── ProtectedRoute.jsx
+│
+│── pages/
+│ ├── Home.jsx
+│ ├── Products.jsx
+│ ├── ProductDetails.jsx
+│ ├── Cart.jsx
+│ ├── Checkout.jsx
+│ ├── Login.jsx
+│ ├── Signup.jsx
+│
+│── context/
+│ └── CartContext.jsx
+│
+│── data/
+│ └── products.js
+│
+│── App.jsx
+│── main.jsx
+│── index.css
