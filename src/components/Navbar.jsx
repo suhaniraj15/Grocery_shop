@@ -1,22 +1,45 @@
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
+import "./Navbar.css";
 
-export default function Navbar() {
+const Navbar = () => {
   const { cart } = useContext(CartContext);
 
   return (
-    <nav className="navbar navbar-expand-lg bg-white shadow-sm">
-      <div className="container">
-        <Link className="navbar-brand fw-bold text-success" to="/">
-          🛒 GroceryShop
+    <nav className="navbar">
+      {/* Logo */}
+      <div className="logo">
+        <Link to="/">GroceryShop</Link>
+      </div>
+
+      {/* Navigation Links */}
+      <ul className="nav-links">
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+
+        <li>
+          <Link to="/products">Products</Link>
+        </li>
+
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
+
+        <li>
+          <Link to="/signup">Signup</Link>
+        </li>
+      </ul>
+
+      {/* Cart */}
+      <div className="cart-icon">
+        <Link to="/cart">
+          🛒 Cart ({cart.length})
         </Link>
-        <div className="ms-auto">
-          <Link to="/cart" className="btn btn-outline-success">
-            Cart ({cart.length})
-          </Link>
-        </div>
       </div>
     </nav>
   );
-}
+};
+
+export default Navbar;
